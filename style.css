@@ -1,0 +1,356 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+/* NAVBAR CSS STARTS HERE */
+nav{
+    background-color: #02918c;
+}
+
+.logo h1{
+color: white;
+font-size: 26.18px;
+font-weight: 800;
+padding: 10px;
+}
+
+.logo span{
+    color: #bdc233;
+}
+
+
+.navbar li{
+    display: inline-block;
+    padding: 15px;
+}
+
+.navbar{
+    padding-left: 35%;
+}
+
+
+.navbar a{
+    font-size: 19px;
+    font-weight: 800;
+    transition: 0.3s;
+}
+
+.navbar a:hover{
+    color: #bdc233;
+    
+}
+/* NAVBAR CSS ENDS HERE */
+
+/* BANNER STARTS HERE */
+.banner{
+    background-image: url(banner.jpg);
+    height: 730px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.banner h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+.banner h3{
+    color: white;
+    letter-spacing: 25px;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.banner p{
+    color: white;
+    font-size: 26px;
+    font-weight: 800;
+}
+
+
+.banner img{
+    padding-top: 60px;
+}
+
+.banner button{
+    background-color: #cfc91d;
+    padding: 10px 30px;
+}
+
+.banner a{
+    color: black;
+    font-size: 16px;
+    font-weight: 800;
+    transition: 0.3s;
+}
+
+.banner a:hover{
+    color: white;
+    letter-spacing: 3px;
+}
+/* BANNER ENDS HERE */
+
+/* ABOUT SECTION CSS STARTS HERE */
+.head{
+    color: #02918c;
+    font-size: 46px;
+    font-weight: 800;
+}
+
+.aboutsection{
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+
+.aboutsection #pera1{
+    padding-top: 60px;
+    font-size: 16x;
+    color: #888;
+}
+
+.aboutsection #pera1 span{
+    font-weight: 800;
+    font-size: 20px;
+    color: #888;
+}
+
+.aboutcard{
+    width: 25%;
+    border-right: 1px solid #888 ;
+    padding: 20px;
+    
+}
+
+.aboutcard:last-child{
+    border: none;
+}
+
+.bulb{
+    text-align: center;
+    font-size: 35px;
+    color: #02918c;
+}
+
+.aboutcard h5{
+    color: #888;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+
+.aboutcard p{
+    color: #888;
+    font-size: 16px;
+
+}
+
+.pen{
+    color: #02918c;
+    font-size: 35px;
+}
+
+.gear{
+    color: #02918c;
+    font-size: 35px;
+}
+
+.laptop{
+    color: #02918c;
+    font-size: 35px;
+}
+/* ABOUT SECTION CSS ENDS HERE */
+
+/* services section css starts here */
+.services{
+    background-image: url(servicesbgi.jpg);
+
+    height: 800px;
+    background-size: cover;
+    margin: 50px 0px;
+}
+
+
+.services .head{
+    text-align: left;
+}
+.services .p1{
+    color: #888;
+}
+
+.servicecard img{
+    width: 30px;
+    padding-top: 50px;
+}
+
+.servicecard h5{
+    color: #888;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.servicecard p{
+    color: #888;
+}
+
+.servicecard{
+    width: 50%;
+    
+}
+
+.serviceleft{
+    width: 50%;
+}
+
+
+.glass{
+    font-size: 30px;
+    color: #02918c;
+    padding-top: 60px;
+}
+/* services section css ends here */
+
+/* MY WORK SECTION CSS STARTS HERE */
+.mywork{
+    padding-top: 100px;
+}
+
+.mywork .head{
+    text-align: center;
+}
+
+.mywork p{
+    text-align: center;
+}
+
+.mywork #p2{
+    text-align: center;
+    padding-top: 15px;
+    color: #888;
+    padding-bottom: 60px;
+}
+
+.row .workcard{
+    width: 25%;
+    position: relative;
+}
+
+.workcard img{
+    width: 475px;
+    display: block;
+}
+
+.workcard h4{
+    text-align: center;
+    padding-top:120px ;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.overlay{
+    position: absolute;
+    inset: 20px 28px;
+    background-color: #02918c80;
+    background-blend-mode: screen;
+    opacity: 0;
+    visibility: hidden;
+    margin-top: 50px;
+    transition: 0.5s;
+    
+}
+
+.workcard p{
+    color: white;
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+
+.workcard:hover .overlay{
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0px;
+}
+/* MY WORK SECTION CSS ENDS HERE */
+
+/* cntact css starts here */
+.contact h4{
+    text-align: center;
+}
+
+.contact p{
+    text-align: center;
+}
+
+.contact{
+    padding-top: 100px;
+}
+
+.contact #p3{
+    color: #888;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.contact2{
+    background-color: black;
+    height: 656px;
+    padding-top: 70px;
+    position: relative;
+}
+
+.contact2 .forfooterpera{
+    color: #888;
+    font-size: 26px;
+    border-bottom: 2px solid #888;
+}
+
+.contact2 a{
+    background-color: #cfc91d;
+    font-weight: 800;
+    padding: 20px 50px;
+    position: absolute;
+    bottom: 20%;
+    left: 46%;
+    transition: 0.5s;
+}
+
+.contact2 a:hover{
+    color: white;
+    letter-spacing: 10px;
+}
+
+
+/* cntact css ends here */
